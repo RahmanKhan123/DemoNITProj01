@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/login")
 public class LoginServlet extends HttpServlet {
-	
+	//java
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		AdminBean ab = new LoginDAO().login(request);
